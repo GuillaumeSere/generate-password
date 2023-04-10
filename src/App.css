@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: grey;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    margin: 1rem;
+    position: relative;
+    background: rgb(27, 27, 27);
+    color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.8);
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 1rem;
+}
+.card-label{
+   margin-top: .5rem;
+}
+label:nth-child(3){
+    margin-left: 1.2rem;
+}
+label:nth-child(4){
+    margin-left: 1.2rem;
+}
+label{
+   margin: 1rem 0;
+   display: block;
+   align-items: center;
+}
+.range-input{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.checkbox-input {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 1rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .checkbox-checkmark {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 8px;
   }
-  to {
-    transform: rotate(360deg);
+  .btn-password{
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    background: green;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
   }
-}
+  .btn-password:hover{
+    background-color: rgb(1, 94, 1);
+  }
+  .result input{
+    padding: .5rem;
+    margin-left: .5rem;
+    width: 280px;
+  }
+  .label-result{
+    display: flex;
+    align-items: center;
+  }
+  .label-result button{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 750px){
+    h1{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    .label-result{
+        flex-direction: column;
+    }
+    .label-result button{
+        margin-top: .5rem;
+    }
+    .range-input{
+        margin-top: 1rem;
+    }
+    .result input{
+        margin-top: .5rem;
+    }
+  }
