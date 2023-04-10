@@ -54,7 +54,6 @@ label{
     margin-right: 1rem;
 }
 .checkbox-input {
-    position: absolute;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -115,5 +114,6 @@ label{
     }
     .result input{
         margin-top: .5rem;
+        width: 210px;
     }
   }
