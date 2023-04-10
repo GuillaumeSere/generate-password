@@ -33,6 +33,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 10px;
     margin-bottom: 1rem;
+    color: green;
 }
 .card-label{
    margin-top: .5rem;
