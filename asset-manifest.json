@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/generate-password/static/css/main.2666a7fd.css",
+    "main.css": "/generate-password/static/css/main.56d2d309.css",
     "main.js": "/generate-password/static/js/main.837bb27b.js",
     "index.html": "/generate-password/index.html",
-    "main.2666a7fd.css.map": "/generate-password/static/css/main.2666a7fd.css.map",
+    "main.56d2d309.css.map": "/generate-password/static/css/main.56d2d309.css.map",
     "main.837bb27b.js.map": "/generate-password/static/js/main.837bb27b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2666a7fd.css",
+    "static/css/main.56d2d309.css",
     "static/js/main.837bb27b.js"
   ]
 }
